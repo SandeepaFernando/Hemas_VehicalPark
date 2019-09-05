@@ -1,0 +1,22 @@
+SMAP
+InsertNotification_jsp.java
+JSP
+*S JSP
+*F
++ 0 InsertNotification.jsp
+Notification/InsertNotification.jsp
++ 1 Side_bar.jsp
+Notification/../includes/Side_bar.jsp
+*L
+5,49:53
+5#1,53:102
+53#0,11:154
+64,2:166
+65,2:168
+67:170,3
+68,5:173
+73:178,3
+74:181,6
+75:187,3
+76,33:190
+*E

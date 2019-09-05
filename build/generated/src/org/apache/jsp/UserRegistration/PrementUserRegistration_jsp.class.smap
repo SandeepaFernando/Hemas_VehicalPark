@@ -1,0 +1,16 @@
+SMAP
+PrementUserRegistration_jsp.java
+JSP
+*S JSP
+*F
++ 0 PrementUserRegistration.jsp
+UserRegistration/PrementUserRegistration.jsp
++ 1 Side_bar.jsp
+UserRegistration/../includes/Side_bar.jsp
+*L
+5,45:49
+5#1,24:94
+49#0,12:117
+61:129,3
+62,86:132
+*E
