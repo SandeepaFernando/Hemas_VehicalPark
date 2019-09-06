@@ -66,7 +66,7 @@ public class InsertSecurityServlet extends HttpServlet {
             boolean isUserInserted = SecurityService.insertUser(newUserRequest);
 
             if (isUserInserted) {
-                response.sendRedirect(request.getContextPath() + "/UserRegistration/SecurityInsert.jsp");
+                response.sendRedirect(request.getContextPath() + "/Security_admin/SecurityInsert.jsp");
             } else {
                 //error message
                 out.println("error");

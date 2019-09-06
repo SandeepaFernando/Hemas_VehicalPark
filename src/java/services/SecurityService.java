@@ -8,7 +8,6 @@ package services;
 import bean.Security;
 import dao.SecurityDao;
 import model.InsertSecurityRequest;
-import static services.User_permanent_service.userDao;
 
 /**
  *
@@ -26,6 +25,7 @@ public class SecurityService {
         newuser.setUname(request.getUname());
         newuser.setUaddress(request.getUaddress());
         newuser.setPassword(request.getPassword());
+        newuser.setWhrs(request.getWhrs());
 
         return userDao.insertUser(newuser);
     }
