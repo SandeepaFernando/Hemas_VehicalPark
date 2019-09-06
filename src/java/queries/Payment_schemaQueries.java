@@ -12,8 +12,8 @@ package queries;
 public class Payment_schemaQueries {
 
     public static final String INSERT_PAYMENT_SCHEMA= "Insert Into payment_schema (ps_name, ps_rate,ps_desc) Values (?,?,?)";
-    public static final String GET_ALL_PAYMENT_SCHEMA = "SELECT * FROM notification";
-    public static final String GET_PAYMENT_SCHEMA_BY_ID = "SELECT * FROM notification where not_Id = ?";
-    public static final String UPDATE_PAYMENT_SCHEMA = "Update notification Set not_type = ?, not_desc = ? Where not_Id = ?";
-    public static final String DELETE_PAYMENT_SCHEMA = "Delete From notification Where not_Id = ?";
+    public static final String GET_ALL_PAYMENT_SCHEMA = "SELECT * FROM payment_schema";
+    public static final String GET_PAYMENT_SCHEMA_BY_ID = "SELECT * FROM payment_schema where psId = ?";
+    public static final String UPDATE_PAYMENT_SCHEMA = "Update payment_schema Set ps_name = ?, ps_rate = ?, ps_desc = ? Where psId = ?";
+    public static final String DELETE_PAYMENT_SCHEMA = "Delete From payment_schema Where psId = ?";
 }

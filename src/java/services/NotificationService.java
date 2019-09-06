@@ -72,9 +72,6 @@ public class NotificationService {
         notifi.setNot_type(request.getNot_type());
         notifi.setNot_desc(request.getNot_desc());
         notifi.setNot_Id(request.getNot_Id());
-//        user.setNic(request.getNic());
-//        user.setVehicalno(request.getVehicalno());
-//        user.setEmail(request.getEmail());
 
         return notiDao.updateNotification(notifi);
     }

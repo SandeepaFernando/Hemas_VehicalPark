@@ -60,9 +60,9 @@ public class UpdateNotificationServlet extends HttpServlet {
             newNotiRequest.setNot_Id(notId);
 
             //call the logic class
-            boolean isUserInserted = NotificationService.updateNotification(newNotiRequest);
+            boolean isNotificationUpdated = NotificationService.updateNotification(newNotiRequest);
 
-            if (isUserInserted) {
+            if (isNotificationUpdated) {
                 response.sendRedirect(request.getContextPath() + "/Notification/View_all_notification.jsp");
             } else {
                 //error message

@@ -20,6 +20,14 @@
         <servlet-name>InsertPayment_schemaServlet</servlet-name>
         <servlet-class>controller.InsertPayment_schemaServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>UpdatePaymentSchema</servlet-name>
+        <servlet-class>controller.UpdatePaymentSchemaServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdatePaymentSchemaServlet</servlet-name>
+        <servlet-class>controller.UpdatePaymentSchemaServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>UserServlet</servlet-name>
         <url-pattern>/UserServlet</url-pattern>
@@ -39,6 +47,14 @@
     <servlet-mapping>
         <servlet-name>InsertPayment_schemaServlet</servlet-name>
         <url-pattern>/InsertPayment_schemaServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdatePaymentSchema</servlet-name>
+        <url-pattern>/UpdatePaymentSchema</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdatePaymentSchemaServlet</servlet-name>
+        <url-pattern>/UpdatePaymentSchemaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
