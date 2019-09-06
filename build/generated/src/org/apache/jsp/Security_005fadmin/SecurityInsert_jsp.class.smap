@@ -1,0 +1,16 @@
+SMAP
+SecurityInsert_jsp.java
+JSP
+*S JSP
+*F
++ 0 SecurityInsert.jsp
+Security_admin/SecurityInsert.jsp
++ 1 Side_bar.jsp
+Security_admin/../includes/Side_bar.jsp
+*L
+5,45:49
+5#1,53:94
+49#0,12:146
+61:158,3
+62,68:161
+*E

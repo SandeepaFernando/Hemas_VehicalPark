@@ -71,7 +71,6 @@
                         <label class="control-label col-sm-2">User Type :</label>
                         <div class="col-sm-10">          
                             <select class="form-control" name="type">
-                                <option value="admin">Admin</option>
                                 <option value="user">User</option>
                             </select>
                         </div>

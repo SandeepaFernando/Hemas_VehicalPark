@@ -28,6 +28,7 @@
 
         %>
 
+        <br><br><br>
         <div class="container">
             <form class="form-horizontal" action="<%=request.getContextPath()%>/UpdateUserServlet" method="POST">
 

@@ -1,6 +1,6 @@
 <%-- 
-    Document   : PrementUserRegistration
-    Created on : Sep 3, 2019, 8:07:56 AM
+    Document   : SecurityInsert
+    Created on : Sep 6, 2019, 10:30:11 AM
     Author     : Sandeepa Fernando
 --%>
 
@@ -58,7 +58,7 @@
             <br><br><br><br>
 
             <div class="container">
-                <form class="form-horizontal" action="<%=request.getContextPath()%>/UserServlet" method="POST">
+                <form class="form-horizontal" action="<%=request.getContextPath()%>/InsertSecurityServlet" method="POST">
 
                     <div class="form-group">
                         <label class="control-label col-sm-2">Name :</label>
@@ -71,7 +71,7 @@
                         <label class="control-label col-sm-2">User Type :</label>
                         <div class="col-sm-10">          
                             <select class="form-control" name="type">
-                                <option value="user">User</option>
+                                <option value="admin">Admin</option>
                             </select>
                         </div>
                     </div>
@@ -84,9 +84,16 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="control-label col-sm-2">Address:</label>
+                        <label class="control-label col-sm-2">Address :</label>
                         <div class="col-sm-10">          
                             <input type="text" class="form-control" placeholder="Enter Vehicle No." name="address">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="control-label col-sm-2">Working Hours :</label>
+                        <div class="col-sm-10">          
+                            <input type="number" class="form-control" placeholder="Enter Vehicle No." name="whrs">
                         </div>
                     </div>
 
