@@ -42,28 +42,28 @@
                 <div class="form-group">
                     <label class="control-label col-sm-2" >User Type :</label>
                     <div class="col-sm-10">          
-                        <input type="email" class="form-control" value="<%= userList.getUtype()%>" name="email" readonly>
+                        <input type="text" class="form-control" value="<%= userList.getUtype()%>" name="utype" readonly>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label class="control-label col-sm-2" >User Name :</label>
                     <div class="col-sm-10">          
-                        <input type="email" class="form-control" value="<%= userList.getUname()%>" name="email" >
+                        <input type="email" class="form-control" value="<%= userList.getUname()%>" name="uname" >
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label class="control-label col-sm-2">Email :</label>
                     <div class="col-sm-10">          
-                        <input type="text" class="form-control" value="<%= userList.getUemail()%>" name="address" >
+                        <input type="email" class="form-control" value="<%= userList.getUemail()%>" name="email" >
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label class="control-label col-sm-2">Address :</label>
                     <div class="col-sm-10">          
-                        <input type="text" class="form-control" value="<%= userList.getUaddress()%>" name="password" >
+                        <input type="text" class="form-control" value="<%= userList.getUaddress()%>" name="address" >
                     </div>
                 </div>
 

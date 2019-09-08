@@ -15,13 +15,15 @@
             <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Close Menu</a>
             <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Overview</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-eye fa-fw"></i>  Parking Grid</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Staff Registration</a>
+            <a href="../Security_admin/SecurityInsert.jsp" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Admin Registration</a>
+            <a href="../UserRegistration/PrementUserRegistration.jsp" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  User Registration</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Temporary Registration</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-diamond fa-fw"></i>  Bookings</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Payments</a>
+            <a href="../Payment_schema/InsertPayment_schema.jsp" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Payments Schema</a>
+            <a href="../Payment_schema/InsertPayment_schema.jsp" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bell fa-fw"></i>  Payments</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bank fa-fw"></i>  Feedback</a>
             <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-history fa-fw"></i>  Complaints</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Settings</a><br><br>
+            <a href="../Notification/InsertNotification.jsp" class="w3-bar-item w3-button w3-padding"><i class="fa fa-cog fa-fw"></i>  Notification</a><br><br>
         </div>
 
 

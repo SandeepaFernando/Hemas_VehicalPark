@@ -7,7 +7,10 @@ package services;
 
 import bean.Security;
 import dao.SecurityDao;
+import java.util.ArrayList;
+import java.util.List;
 import model.InsertSecurityRequest;
+import model.SecurityRespons;
 
 /**
  *
@@ -28,5 +31,25 @@ public class SecurityService {
         newuser.setWhrs(request.getWhrs());
 
         return userDao.insertUser(newuser);
+    }
+
+    public static List<SecurityRespons> getAllUser() {
+        List<Security> userList = userDao.getAllUsers();
+        List<SecurityRespons> responseList = new ArrayList<>();
+
+        for (Security users : userList) {
+            SecurityRespons response = new SecurityRespons();
+
+            response.setId(users.getId());
+            response.setUname(users.getUname());
+            response.setUtype(users.getUtype());
+            response.setUemail(users.getUemail());
+            response.setUaddress(users.getUaddress());
+            response.setPassword(users.getPassword());
+
+            responseList.add(response);
+        }
+
+        return responseList;
     }
 }

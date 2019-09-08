@@ -1,0 +1,22 @@
+SMAP
+Reserve_005finsert_jsp.java
+JSP
+*S JSP
+*F
++ 0 Reserve_insert.jsp
+Payments/Reserve_insert.jsp
++ 1 Side_bar.jsp
+Payments/../includes/Side_bar.jsp
+*L
+5,53:54
+5#1,55:107
+57#0,23:161
+80,2:185
+81,2:187
+83:189,3
+84,5:192
+89:197,3
+90:200,6
+91:206,3
+92,33:209
+*E

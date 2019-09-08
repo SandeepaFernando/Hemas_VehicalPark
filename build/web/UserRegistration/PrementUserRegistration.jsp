@@ -17,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../External/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../External/css/button.css">
     <script src="../External/Jquery/jquery.min.js" type="text/javascript"></script>
     <style>
         html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
@@ -55,7 +56,18 @@
 
         <!-- !PAGE CONTENT! -->
         <div class="w3-main" style="margin-left:300px;margin-top:43px;">
-            <br><br><br><br>
+            <br>
+            <div class="row">
+                <div class="col-3">
+                    <h1>User Registration</h1>
+                </div>
+                <div class="col-7"></div>
+                <div class="col-2">
+                    <a class="btn btn-primary btn-lg" href="../UserRegistration/View_allRegisterd_users.jsp">View All Users</a>
+                </div>
+            </div>
+
+            <br><br>
 
             <div class="container">
                 <form class="form-horizontal" action="<%=request.getContextPath()%>/UserServlet" method="POST">

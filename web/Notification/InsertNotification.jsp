@@ -4,6 +4,8 @@
     Author     : Sandeepa Fernando
 --%>
 
+<%@page import="services.SecurityService"%>
+<%@page import="model.SecurityRespons"%>
 <%@page import="java.util.List"%>
 <%@page import="model.UserRespons"%>
 <%@page import="model.UserRespons"%>
@@ -21,6 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../External/Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../External/css/view_allcss.css">
     <script src="../External/Jquery/jquery.min.js" type="text/javascript"></script>
     <style>
         html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
@@ -59,9 +62,21 @@
 
         <!-- !PAGE CONTENT! -->
         <div class="w3-main" style="margin-left:300px;margin-top:43px;">
-            <br><br><br><br>
-            <% 
-                List<UserRespons> userList = User_permanent_service.getAllUser();
+            <br>
+            <div class="row">
+                <div class="col-3">
+                    <h1>Notification</h1>
+                </div>
+                <div class="col-7"></div>
+                <div class="col-2">
+                    <a class="btn btn-primary btn-lg" href="../Notification/View_all_notification.jsp">View All Notification</a>
+                </div>
+                <div class="col-7"></div>
+            </div>
+
+            <br><br>
+            <%
+                List<SecurityRespons> userList = SecurityService.getAllUser();
             %>
             <div class="container">
                 <form class="form-horizontal" action="<%=request.getContextPath()%>/InsertNotificationServlet" method="POST">
@@ -70,7 +85,7 @@
                         <label class="control-label col-sm-2">User ID :</label>
                         <div class="col-sm-10">          
                             <select class="form-control" name="user_id">
-                                <% for (UserRespons res: userList) { %>
+                                <% for (SecurityRespons res : userList) {%>
                                 <option value="<%=res.getId()%>"><%=res.getId()%></option>
                                 <% }%>
                             </select>

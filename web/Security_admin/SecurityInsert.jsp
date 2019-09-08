@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <title>Admin</title>
+    <title>Admin Registration</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -55,7 +55,18 @@
 
         <!-- !PAGE CONTENT! -->
         <div class="w3-main" style="margin-left:300px;margin-top:43px;">
-            <br><br><br><br>
+            <br>
+            <div class="row">
+                <div class="col-3">
+                    <h1>Admin Registration</h1>
+                </div>
+                <div class="col-7"></div>
+                <div class="col-2">
+                    <a class="btn btn-primary btn-lg" href="../Security_admin/View_all_Security.jsp">View All Security</a>
+                </div>
+            </div>
+
+            <br><br>
 
             <div class="container">
                 <form class="form-horizontal" action="<%=request.getContextPath()%>/InsertSecurityServlet" method="POST">

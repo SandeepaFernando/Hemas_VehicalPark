@@ -53,7 +53,19 @@
 
         <!-- !PAGE CONTENT! -->
         <div class="w3-main" style="margin-left:300px;margin-top:43px;">
-            <br><br><br><br>
+            <br>
+            <div class="row">
+                <div class="col-3">
+                    <h1>Add Payemt Schema</h1>
+                </div>
+                <div class="col-7"></div>
+                <div class="col-2">
+                    <a class="btn btn-primary btn-lg" href="../Payment_schema/View_all_payment_schema.jsp">View All Notification</a>
+                </div>
+                <div class="col-7"></div>
+            </div>
+
+            <br><br>
 
             <div class="container">
                 <form class="form-horizontal" action="<%=request.getContextPath()%>/InsertPayment_schemaServlet" method="POST">
